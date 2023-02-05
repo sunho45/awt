@@ -13,11 +13,11 @@ public class QUEUE extends JFrame {
 		
 		Container c=getContentPane();// 컨텐트 팬을 알아낸다
 		c.setLayout(new FlowLayout());
-		JButton btn=new JButton();
+		JButton btn=new JButton("Action");
 		btn.addActionListener(new MyActionListener());
 		setSize(300,300);
 		setVisible(true);
-		
+		c.add(btn);
 		
 		
 		
@@ -45,9 +45,21 @@ class MyActionListener implements ActionListener{
 	
 
 
+private static final String JButton = null;
+
 @Override
 public void actionPerformed(ActionEvent e) {
 	// TODO Auto-generated method stub
+	JButton b= (JButton)e.getSource();
+	if(b.getText().equals("Action")) {
+		
+		b.setText("액션");
+	}
+	else {
+			b.setText("ACTION");
+		}
+		
+	
 	
 }
 }
