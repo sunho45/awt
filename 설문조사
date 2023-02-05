@@ -1,0 +1,53 @@
+import javax.swing.*;
+import java.awt.*;
+public class QUEUE extends JFrame {
+	/**
+	 * 
+	 */
+	
+
+	public QUEUE() {
+		setTitle("설문 조사");//프레임 타이틀 달기
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);//프로그램 윈도우를 닫으면 프로그램을 종료핟로고 설정
+		
+		Container contentPane=getContentPane();// 컨텐트 팬을 알아낸다
+		GridLayout grid=new GridLayout(4,2);//4*3격자로 창을 분류해 배치
+		grid.setVgap(5);
+		contentPane.setBackground(Color.GRAY);// 컨텐트팬의 색을 주황색으로
+		contentPane.setLayout(grid);
+		contentPane.add(new JLabel("너의 이름은?")); 
+		contentPane.add(new JTextField(" ")); 
+		contentPane.add(new JLabel("너의 나이는?")); //OK추가
+		contentPane.add(new JTextField(" ")); //OK추가
+		contentPane.add(new JLabel("너의 전화번호는?")); //OK추가
+		contentPane.add(new JTextField(" ")); //OK추가
+		contentPane.add(new JLabel("너의 성별은?")); //OK추가
+		contentPane.add(new JTextField(" ")); //OK추가
+		
+	
+		setSize(300,300);
+		setVisible(true);
+		
+		
+		
+		
+		
+	}
+	
+public static void main(String[] args) {
+		
+		
+		new QUEUE();
+	
+	
+
+
+
+
+
+
+
+		
+	}
+	
+}
