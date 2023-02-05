@@ -44,3 +44,9 @@ contentPane.add(new JButton("OK");
 
 		contentPane.setLayout(new FlowLayout(FlowLayout.LEFT,30,40));// 수평간격이 30 수직간격을 40 LEFT로 정렬
 ```
+
+튜토리얼대로 하면
+![image](https://user-images.githubusercontent.com/100903674/216833453-4e95f471-d70b-4f34-a78f-8c78799195dc.png)
+
+
+
