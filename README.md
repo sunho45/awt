@@ -39,3 +39,8 @@ contentPane.setBackground(Color.ORANGE);// 컨텐트팬의 색을 주황색으�
 contentPane.add(new JButton("OK");
 
 ```
+배치 설정
+```
+
+		contentPane.setLayout(new FlowLayout(FlowLayout.LEFT,30,40));// 수평간격이 30 수직간격을 40 LEFT로 정렬
+```
