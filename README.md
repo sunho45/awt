@@ -63,3 +63,13 @@ contentPane.add(new JButton("OK"),BorderLayout.CENTER); 중앙지역에 버튼 �
 		contentPane.add(new JButton("div"),BorderLayout.NORTH); //OK추가
 		contentPane.add(new JButton("div"),BorderLayout.SOUTH);
 ```
+격자형태로 버튼 지정
+```
+contentPane.setLayout(new GridLayout(4,3));//4*3격자로 창을 분류해 배치
+
+
+```
+
+
+
+
