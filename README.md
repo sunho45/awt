@@ -46,7 +46,20 @@ contentPane.add(new JButton("OK");
 ```
 
 튜토리얼대로 하면
+
 ![image](https://user-images.githubusercontent.com/100903674/216833453-4e95f471-d70b-4f34-a78f-8c78799195dc.png)
+경계대로 버튼을 지정하려면
+
+```
+contentPane.setLayout(new BorderLayout(30,20));
 
 
-
+```
+버튼 지정
+```
+contentPane.add(new JButton("OK"),BorderLayout.CENTER); 중앙지역에 버튼 추가
+		contentPane.add(new JButton("div"),BorderLayout.WEST); 서쪽에 버튼 
+		contentPane.add(new JButton("OK"),BorderLayout.EAST); //OK추가
+		contentPane.add(new JButton("div"),BorderLayout.NORTH); //OK추가
+		contentPane.add(new JButton("div"),BorderLayout.SOUTH);
+```
