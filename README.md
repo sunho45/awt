@@ -74,6 +74,14 @@ contentPane.setLayout(new GridLayout(4,3));//4*3격자로 창을 분류해 배�
 
 ![image](https://user-images.githubusercontent.com/100903674/216835989-2c022528-b11d-4692-9bf5-738863bf855c.png)
 
+텍스트 출력
+```
+contentPane.add(new JLabel("너의 이름은?")); 
+```
 
+입력테스트 추가
+```
+contentPane.add(new JTextField(" ")); 
+```
 
 
