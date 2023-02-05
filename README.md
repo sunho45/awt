@@ -15,6 +15,11 @@ setSize(300,300)
 ```
 setVisbile(true);
 ```
+프로그램 윈도우를 닫으면 프로그램을 종료핟로고 설정
+```
+setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+```
 컨텐트 팬을 알아낸다.
 ```
 Container contentPane =getContentPane();
@@ -22,6 +27,7 @@ Container contentPane =getContentPane();
 
 
 ```
+
 컨텐트팬의 색을 설정
 ```
 contentPane.setBackground(Color.ORANGE);// 컨텐트팬의 색을 주황색으로
