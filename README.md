@@ -86,3 +86,14 @@ contentPane.add(new JTextField(" "));
 
 ![image](https://user-images.githubusercontent.com/100903674/216836490-fdbfff3d-92df-4dec-b80d-1bb16c26d5f5.png)
 
+컨텐트 팬이 키 입력을 받을 수 있도록 포커스 강제 지정
+
+```
+c.setFocusable(true);
+		c.requestFocus();
+	
+
+
+
+```
+
