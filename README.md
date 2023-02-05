@@ -96,4 +96,16 @@ c.setFocusable(true);
 
 
 ```
+컨텐트팬에 마우스 리스더 달기
+```
+c.addMouseListener(new MyMouseListener());
 
+```
+
+컨텐트팬에 키 리스너 달기
+```
+c.addKeyListener(new MyKeyListener());
+		c
+
+
+```
