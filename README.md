@@ -84,4 +84,5 @@ contentPane.add(new JLabel("너의 이름은?"));
 contentPane.add(new JTextField(" ")); 
 ```
 
+![image](https://user-images.githubusercontent.com/100903674/216836490-fdbfff3d-92df-4dec-b80d-1bb16c26d5f5.png)
 
