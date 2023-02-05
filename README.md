@@ -70,6 +70,10 @@ contentPane.setLayout(new GridLayout(4,3));//4*3격자로 창을 분류해 배�
 
 ```
 
+4*3 형태로 배치하면
+
+![image](https://user-images.githubusercontent.com/100903674/216835989-2c022528-b11d-4692-9bf5-738863bf855c.png)
+
 
 
 
