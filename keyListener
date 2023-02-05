@@ -1,0 +1,87 @@
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+public class QUEUE extends JFrame {
+	static final int unit=10;
+	
+	private JLabel btn=new JLabel("DEW");
+
+	public QUEUE() {
+		setTitle("my key test");
+		setSize(300,300);
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setVisible(true);
+		Container c=getContentPane();
+		c.addKeyListener(new MyKeyListener());
+		c.add(btn);
+		btn.setLocation(30,30);
+		btn.setSize(50,30);
+		c.setFocusable(true);
+		c.requestFocus();
+	
+	
+	
+	}
+	
+	class MyKeyListener extends KeyAdapter{
+
+		
+		
+		public void KeyPressed(KeyEvent e) {
+			int key=e.getKeyCode();
+			
+			
+			switch(key) {
+			
+			case KeyEvent.VK_UP:
+				Frame contentPane;
+				contentPane.setBackground(Color.black);
+				break;
+			
+			
+			
+			
+			}
+			
+			
+			
+			
+			
+			
+			
+			
+			
+		}
+
+		
+
+		
+		
+		
+		
+		
+		
+	
+	}
+	
+	
+	
+
+	
+public static void main(String[] args) {
+		
+		
+		new QUEUE();
+	
+	
+
+
+
+
+
+
+
+		
+	}
+	
+}
