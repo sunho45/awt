@@ -111,7 +111,7 @@ c.addMouseListener(new MyMouseListener());
 컨텐트팬에 키 리스너 달기
 ```
 c.addKeyListener(new MyKeyListener());
-		c
+```
 입력받은 키 코드 알아내기
 ```
 int key=e.getKeyCode();
