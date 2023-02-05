@@ -28,3 +28,8 @@ contentPane.setBackground(Color.ORANGE);// 컨텐트팬의 색을 주황색으�
 		
 
 ```
+버튼 생성
+```
+contentPane.add(new JButton("OK");
+
+```
