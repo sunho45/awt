@@ -2,7 +2,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 public class QUEUE extends JFrame {
-	private final int unit=10;
+	private final int FLYING_UNIT=10;
 	
 	private JLabel btn=new JLabel("DEW");
 
@@ -29,20 +29,24 @@ public class QUEUE extends JFrame {
 
 		
 		
-		public void KeyPressed(KeyEvent e) {
-			int key=e.getKeyCode();
+		public void keyPressed(KeyEvent e) {
+int KeyCode=e.getKeyCode();
 			
 			
-			switch(key) {
+			switch(KeyCode) {
 			
 			case KeyEvent.VK_UP:
-				
-				btn.setLocation(btn.getX(),btn.getY()-unit);
-				break;
-             case KeyEvent.VK_DOWN:
-				
-				btn.setLocation(btn.getX(),btn.getY()+unit);
-				break;
+btn.setLocation(btn.getX(), btn.getY()-FLYING_UNIT);
+break;
+case KeyEvent.VK_DOWN:
+btn.setLocation(btn.getX(), btn.getY()+FLYING_UNIT);
+break;
+case KeyEvent.VK_LEFT:
+btn.setLocation(btn.getX()-FLYING_UNIT, btn.getY());
+break;
+case KeyEvent.VK_RIGHT:
+btn.setLocation(btn.getX()+FLYING_UNIT, btn.getY());
+break;
 			
 			
 			
