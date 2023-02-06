@@ -116,3 +116,17 @@ c.addKeyListener(new MyKeyListener());
 ```
 int key=e.getKeyCode();
 ```
+```
+
+if(KeyCode==KeyEvent.VK_ENTER) {
+				System.out.println(3);
+				 a=(int)(Math.random()*256);
+					 b=(int)(Math.random()*256);
+					 c=(int)(Math.random()*256);
+			
+			
+			
+			}
+
+```
+키보드의 
