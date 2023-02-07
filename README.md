@@ -129,4 +129,11 @@ if(KeyCode==KeyEvent.VK_ENTER) {
 			}
 
 ```
-키보드의 
+폰트 설정
+```
+Font font = new Font("궁서", Font.BOLD + Font.ITALIC, 25);
+a.setForeground(Color.yellow);
+		a.setHorizontalAlignment(SwingConstants.CENTER);
+		a.setFont(font);
+
+```
