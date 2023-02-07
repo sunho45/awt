@@ -137,3 +137,12 @@ a.setForeground(Color.yellow);
 		a.setFont(font);
 
 ```
+이미지 추가
+```
+ImageIcon normalIcon=new ImageIcon("C:\\Users\\skyee\\Desktop\\pics/tt.jpg");
+	JButton btn=new JButton("나는 지금 매우 진지",normalIcon);
+
+
+
+
+```
